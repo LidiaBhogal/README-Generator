@@ -72,7 +72,7 @@ function promptUser() {
                     ['Apache 2.0 License',
                         'Boost Software License 1.0',
                         'The MIT License',
-                        'Attribution 4.0 International',
+                        'Eclipse Public License 1.0 International',
                         'GNU GPL v3']
 
             },
