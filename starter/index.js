@@ -2,7 +2,8 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const path = require('path');
 const generateMarkdown = require("./utils/generateMarkdown");
-const license = ['Apache 2.0 License','Boost Software License 1.0','The MIT License','Attribution 4.0 International','GNU GPL v3']
+const license = ['Apache 2.0 License', 'Boost Software License 1.0', 'The MIT License', 'Attribution 4.0 International', 'GNU GPL v3']
+
 
 
 
@@ -16,8 +17,7 @@ function promptUser() {
         [
             {
                 type: 'input',
-                message: 'What do you want the title to be?'
-                ,
+                message: 'What is the title?',
                 name: 'title'
 
 
@@ -49,15 +49,14 @@ function promptUser() {
             },
             {
                 type: 'input',
-                message: 'To install necessary dependencies, run the following command: npm install',
+                message: 'If you want to install necessary dependencies, run the following command: npm install',
                 name: 'installation',
 
 
             },
             {
                 type: 'input',
-                message: 'You can use this applicaiton by running',
-                // node index.js
+                message: 'You can use this applicaiton by running: node index.js',
                 name: 'usage',
 
 
@@ -67,11 +66,11 @@ function promptUser() {
                 message: 'What license do you want',
                 name: 'licenses',
                 choices:
-                    ['Apache 2.0 License',
-                        'Boost Software License 1.0',
-                        'The MIT License',
-                        'Eclipse Public License 1.0 International',
-                        'GNU GPL v3']
+                    ['Apache',
+                        'Boost',
+                        'MIT ',
+                        'Eclipse',
+                        'GNU-GPL-v3']
 
             },
             {
@@ -83,9 +82,7 @@ function promptUser() {
 
             {
                 type: 'input',
-                message: 'To run tests, run the following command:',
-                // npm test
-
+                message: 'To run tests, run the following command: npm test',
                 name: 'tests',
 
 
@@ -94,7 +91,9 @@ function promptUser() {
             {
                 type: 'input',
                 message: 'If you habe any questions about the repo , contact me on Github link: ',
-                name: 'questions',
+                name:'questions',
+                email: 'email',
+
 
 
             },
@@ -102,7 +101,7 @@ function promptUser() {
 };
 promptUser().then((data) => {
     fs.writeFileSync('README.md', generateMarkdown(data))
-    console.log(data);
+    console.log(data, 'README created!');
 
 }
 )

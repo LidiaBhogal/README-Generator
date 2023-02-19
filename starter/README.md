@@ -20,19 +20,19 @@ a
 
 #Licenses 
 
-Boost Software License 1.0
+Apache,Boost,MIT ,Eclipse,GNU-GPL-v3
 
 
 
 #Contributing 
 
-me
+a
 
 #Tests 
 
-
+a
 
 #Questions 
 
- 
+If you habe any questions about the repo , contact me on Github link:a  or email me undefined  
 
