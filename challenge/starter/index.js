@@ -2,9 +2,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const path = require('path');
 const generateMarkdown = require("./utils/generateMarkdown");
-const license = ['Apache 2.0 License','Boost Software License 1.0','The MIT License',
-'Attribution 4.0 International',
-'GNU GPL v3']
+const license = ['Apache 2.0 License','Boost Software License 1.0','The MIT License','Attribution 4.0 International','GNU GPL v3']
 
 
 
@@ -109,28 +107,4 @@ promptUser().then((data) => {
 }
 )
 
-// .then((response) => {
 
-//     console.log(response.usersName)
-
-//     const usersInfo = `User's name: ${response.usersName}
-// User's Lanuages: ${response.userLanguages}
-// User's Method: ${response.userMethod}`;
-
-
-//     fs.writeFile('response.txt', usersInfo, (err) =>
-//         err ? console.error(err) : console.log('User\'s info logged!')
-//     )
-// })
-
-// function to write README file
-// function writeToFile(fileName, data) {
-// }
-
-// function to initialize program
-// function init() {
-
-// }
-
-// function call to initialize program
-// init();

@@ -20,17 +20,19 @@ a
 
 #Licenses 
 
-Apache 2.0 License,Boost Software License 1.0,Boost Software License 1.0,Attribution 4.0 International,GNU GPL v3
+Boost Software License 1.0
+
+
 
 #Contributing 
 
-a
+me
 
 #Tests 
 
-a
+
 
 #Questions 
 
-https://github.com/LidiaBhogal 
+ 
 

@@ -1,16 +1,16 @@
 // function to add license pictures
 
-// function licensePic(license) {
-//   let badge = "";
+function licensePic(license) {
+  let badge = "";
 
-//   if(license != "None") {
-//     badge = "![License Badge](https://shields.io/badge/license-" + license + "-green)";
-//   }
+  if(license != "None") {
+    return "Error, you have not selcted a license"
+  }
 
-//   return badge;
-// }
+  return badge;
+}
 
-// Create a function that returns the license link
+// Create a function that returns the license link and badge
 // If there is no license, return an empty string
 function getLicense(license) {
   let licenseLink;
@@ -73,7 +73,7 @@ ${data.usage}
 
 ${data.licenses}
 
-getLicensepic();
+
 
 #Contributing 
 
