@@ -1,24 +1,27 @@
 
 
 
-# ReadMe Generator
+# Title
+
+readme 
 
 
-  [![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
 
 
-  readme generator 
+
+
+  
 
 
 # Description
 
-  generating a readme using node and markdown
+  d
 
 
 
 # Table
 
- Installation
+ Installation,Usage,License,Contributing,Tests,Questions
 
 
 [Description](#description)
@@ -48,7 +51,7 @@ node index.js
 
 # Licenses 
 
-[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
+
 
 
 # Contributing 
@@ -63,5 +66,5 @@ npm test
 
 # Questions 
 
-If you habe any questions about the repo , contact me on Github link:alinkiwillpaste  or email me lydiapriano@yahoo.co.uk  
+If you habe any questions about the repo , contact me on Github link:lkldjfldkjfd  or email me lydiapriano@yahoo.co.uk  
 

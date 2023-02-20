@@ -45,7 +45,7 @@ ${data.title}
 
 
 
-  ${getLicense(data.licenses[0])}
+${getLicense(data.licenses[0])}
 
 
   
