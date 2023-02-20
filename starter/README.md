@@ -1,38 +1,48 @@
-#Title 
 
-  a 
+# Title 
 
-#Description
+  [![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
-  a
+  Readme generator 
 
-#Table
+# Description
+
+  generating a readme
+
+
+# Table
 
  Installation,Usage,License,Contributing,Tests,Questions
 
-#Installation
+[description](#Description)
+[installation](#Installation)
+[usage](#Usage)
+[license](#Licenses)
+[contributing](#Contributing)
+[tests](#Tests)
+[questions](#Questions)
 
- a
+# Installation
 
-#Usage 
+ npm install
 
-a
+# Usage 
 
-#Licenses 
+node index.js
 
-Apache,Boost,MIT ,Eclipse,GNU-GPL-v3
+# Licenses 
 
+[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
 
+# Contributing 
 
-#Contributing 
+lidia
 
-a
+# Tests 
 
-#Tests 
+npm test
 
-a
+# Questions 
 
-#Questions 
-
-If you habe any questions about the repo , contact me on Github link:a  or email me undefined  
+If you habe any questions about the repo , contact me on Github link:jhfdkjhfskfs  or email me lydiapriano@yahoo.co.uk  
 
