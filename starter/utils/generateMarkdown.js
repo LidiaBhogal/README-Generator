@@ -35,68 +35,69 @@ function getLicense(license) {
   return licenseLink;
 }
 
-// function to generate markdown for README
-// function turtles(shell) {
-//   switch(shell) {
-//     case "mikey":
-//       // code block
-//       return "michelangelo"
-//       break;
-//     case "raph":
-//       // code block
-//       return "raphael"
-//       break;
-//     default:
-//       // code block
-//       return "splinter" 
-
-//   }
-// }
-
 function generateMarkdown(data) {
   return `
-# Title 
+
+
+# ReadMe Generator
+
 
   ${getLicense(data.licenses[0])}
 
+
   ${data.title} 
+
 
 # Description
 
   ${data.description}
 
 
+
 # Table
 
  ${data.table}
 
-[description](#Description)
-[installation](#Installation)
-[usage](#Usage)
-[license](#Licenses)
-[contributing](#Contributing)
-[tests](#Tests)
-[questions](#Questions)
+
+[Description](#description)
+
+[Installation](#installation)
+
+[Usage](#usage)
+
+[License](#licenses)
+
+[Contributing](#contributing)
+
+[Tests](#ests)
+
+[Questions](#questions)
+
 
 # Installation
 
  ${data.installation}
 
+
 # Usage 
 
 ${data.usage}
+
 
 # Licenses 
 
 ${getLicense(data.licenses[0])}
 
+
 # Contributing 
 
 ${data.contributing}
 
+
 # Tests 
 
 ${data.tests}
+
 
 # Questions 
 
