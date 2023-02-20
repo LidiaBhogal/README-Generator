@@ -4,36 +4,36 @@
 # ReadMe Generator
 
 
-  [![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+  [![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
 
 
-  readme 
+  readme generator 
 
 
 # Description
 
-  generating a readme
+  generating a readme using node and markdown
 
 
 
 # Table
 
- Installation,Usage,License,Contributing,Tests,Questions
+ Installation
 
 
 [Description](#description)
 
 [Installation](#installation)
 
-[usage](#Usage)
+[Usage](#usage)
 
-[license](#Licenses)
+[License](#licenses)
 
-[contributing](#Contributing)
+[Contributing](#contributing)
 
-[tests](#Tests)
+[Tests](#ests)
 
-[questions](#Questions)
+[Questions](#questions)
 
 
 # Installation
@@ -48,7 +48,7 @@ node index.js
 
 # Licenses 
 
-[![License](https://img.shields.io/badge/License-Boost_1.0-lightblue.svg)](https://www.boost.org/LICENSE_1_0.txt)
+[![License](https://img.shields.io/badge/License-EPL_1.0-red.svg)](https://opensource.org/licenses/EPL-1.0)
 
 
 # Contributing 
@@ -63,5 +63,5 @@ npm test
 
 # Questions 
 
-If you habe any questions about the repo , contact me on Github link:djkhkshsdsk  or email me lydiapriano@yahoo.co.uk  
+If you habe any questions about the repo , contact me on Github link:alinkiwillpaste  or email me lydiapriano@yahoo.co.uk  
 

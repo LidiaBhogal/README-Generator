@@ -39,13 +39,16 @@ function generateMarkdown(data) {
   return `
 
 
-# ReadMe Generator
+# Title
+
+${data.title} 
+
 
 
   ${getLicense(data.licenses[0])}
 
 
-  ${data.title} 
+  
 
 
 # Description
