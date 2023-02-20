@@ -106,6 +106,11 @@ ${data.tests}
 
 If you habe any questions about the repo , contact me on Github link:${data.questions}  or email me ${'lydiapriano@yahoo.co.uk'}  
 
+also please find below a link to a walkthrough video that demonstrates its functionality.
+
+
+https://drive.google.com/file/d/1ibesEdSN9lcTCFDkA8f7R-YL1VaHiyIN/view
+
 `;
 }
 
